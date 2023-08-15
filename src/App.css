@@ -1,0 +1,71 @@
+.add_btn {
+    text-align: right;
+}
+
+.container {
+    overflow: auto;
+   
+}
+
+.left_view h3 {
+    font-size: 21px;
+}
+
+.left_view p {
+    font-weight: 600;
+}
+
+.left_view span {
+    font-weight: 400;
+}
+
+.right_view p {
+    font-weight: 600;
+}
+
+
+.right_view span {
+    font-weight: 400;
+}
+
+.uploadbar {
+    float: right;
+    top:0%;
+    width: 50px;
+    height: 50px;
+}
+
+.outer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+.inner{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background-color: #afd4f9;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px , 55px, 45px, 55px;
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+.inner2{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background-color: #afd4f9;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px , 55px, 45px, 55px;
+    border-radius: 15px;
+    transition: all .3s;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
