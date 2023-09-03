@@ -37,19 +37,19 @@ const Register = () => {
 
 
         if (name == "") {
-            alert("name is required")
+            alert("Name is required")
         } else if (email == "") {
-            alert("email is required")
+            alert("Email is required")
         } else if (!email.includes("@")) {
-            alert("enter valid email")
+            alert("Enter valid email")
         } else if (work == "") {
-            alert("work is required")
+            alert("Work is required")
         } else if (add == "") {
-            alert("add is required")
+            alert("Add is required")
         } else if (mobile == "") {
-            alert("mobile is required")
+            alert("Mobile is required")
         } else if (age == "") {
-            alert("age is required")
+            alert("Age is required")
         } else {
 
             const res = await fetch("/create", {

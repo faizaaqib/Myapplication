@@ -54,7 +54,7 @@ const Login = () =>{
                 });
 
                 if (userlogin.length === 0) {
-                    alert("invalid details")
+                    alert("Invalid login details")
                 } else {
                     console.log("User login succesfulyy");
 

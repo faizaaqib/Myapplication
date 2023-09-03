@@ -76,7 +76,7 @@ const Home = () => {
                 udata ?
                     <>
                         <div class="alert alert-success alert-dismissible fade show" role="alert">
-                            <strong>{udata.name}</strong>  added succesfully!
+                            <strong>{udata.name}</strong> Record Added succesfully!
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     </> : ""
@@ -85,7 +85,7 @@ const Home = () => {
                 updata ?
                     <>
                         <div class="alert alert-success alert-dismissible fade show" role="alert">
-                            <strong>{updata.name}</strong>  updated succesfully!
+                            <strong>{updata.name}</strong>  Record Updated succesfully!
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     </> : ""
@@ -95,7 +95,7 @@ const Home = () => {
                 dltdata ?
                     <>
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                            <strong>{dltdata.name}</strong>  deleted succesfully!
+                            <strong>{dltdata.name}</strong>  Record Deleted succesfully!
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     </> : ""
